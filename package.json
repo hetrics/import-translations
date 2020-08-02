@@ -1,19 +1,22 @@
 {
-  "name": "update-translations",
-  "version": "0.0.1",
-  "description": "Module to parse Google sheets CSV translations data to JSON",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hetrics/update-translations.git"
-  },
-  "author": "Hetrics",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hetrics/update-translations/issues"
-  },
-  "homepage": "https://github.com/hetrics/update-translations#readme"
+    "name": "@hetrics/update-translations",
+    "version": "0.0.1",
+    "description": "Module to parse Google sheets CSV translations data to JSON",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hetrics/update-translations.git"
+    },
+    "author": "Hetrics",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hetrics/update-translations/issues"
+    },
+    "homepage": "https://github.com/hetrics/update-translations#readme"
 }
