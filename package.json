@@ -2,9 +2,10 @@
     "name": "@hetrics/update-translations",
     "version": "0.0.1",
     "description": "Module to parse Google sheets CSV translations data to JSON",
-    "main": "index.js",
+    "main": "build/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/"
@@ -18,5 +19,21 @@
     "bugs": {
         "url": "https://github.com/hetrics/update-translations/issues"
     },
-    "homepage": "https://github.com/hetrics/update-translations#readme"
+    "homepage": "https://github.com/hetrics/update-translations#readme",
+    "devDependencies": {
+        "@types/lodash": "^4.14.158",
+        "@types/node-fetch": "^2.5.7",
+        "@types/signale": "^1.4.1",
+        "typescript": "^3.9.7"
+    },
+    "dependencies": {
+        "jsonfile": "^6.0.1",
+        "lodash": "^4.17.19",
+        "neat-csv": "^5.2.0",
+        "node-fetch": "^2.6.0",
+        "signale": "^1.4.0"
+    },
+    "files": [
+        "build"
+    ]
 }
