@@ -12,14 +12,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/hetrics/update-translations.git"
+        "url": "git+https://github.com/hetrics/import-translations.git"
     },
     "author": "Hetrics",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/hetrics/update-translations/issues"
+        "url": "https://github.com/hetrics/import-translations/issues"
     },
-    "homepage": "https://github.com/hetrics/update-translations#readme",
+    "homepage": "https://github.com/hetrics/import-translations#readme",
     "devDependencies": {
         "@types/lodash": "^4.14.158",
         "@types/node-fetch": "^2.5.7",
