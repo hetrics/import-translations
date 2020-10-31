@@ -6,7 +6,7 @@ const _ = require('lodash');
 const jsonfile = require('jsonfile');
 
 const tagKey = 'tag';
-const enKey = 'gb-en';
+const enKey = 'en-GB';
 const translationUrl = process.argv[3];
 const translationsDirectory = process.cwd() + '/' + process.argv[2];
 
